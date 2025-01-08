@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 3px;
+    margin-top: 5px;
+    width: 95%;
+}
+
+.input{
+    display: flex;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+fieldset{
+    width: 250px;
+    margin: auto;
+}
+
+.nota-fiscal {
+    width: 350px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    gap: 10px;
+}
